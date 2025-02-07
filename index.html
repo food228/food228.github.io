@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - 個人網站</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">普通人</a>
+            <ul class="nav-links">
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#blog">部落格</a></li>
+                <li><a href="#contact">聯絡我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<section id="home" style="background-image: url('pop-cat.gif');" class="hero-section">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">您好，我是 普通人</h1>
+            <p class="hero-subtitle">平凡普通正常的學生 / normal guy</p>
+            <a href="#portfolio" class="cta-button">查看作品</a>
+        </div>
+    </div>
+</section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">作品集</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="ezgif-4a985c185448b.gif" alt="作品1">
+                    <div class="portfolio-overlay">
+                        <h3>電商網站設計</h3>
+                        <p>使用 React 開發的現代電商平台</p>
+                    </div>
+                </div>
+                <!-- 更多作品項目 -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">關於我</h2>
+            <div class="about-content">
+                <img src="KwvwFs.gif" alt="個人照片" class="KwvwFs.gif">
+                <div>
+                    <p>我是一個擁有人類正常基本生體功能的普通人，專注於學習。我的目標是過著超級平凡的生活。</p>
+                    <br>
+                    <p>在上課之餘，我沒什麼想探索的，或許是因為太普通。我相信「普通可以改變世界」，而我希望就普通的活著。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">平凡技能</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>人類反射神經本能</h3>
+                    <p>會呼吸</p>
+                    <p>心臟會泵血</p>
+                </div>
+                <div class="skill-card">
+                    <h3>人類生理本能</h3>
+                    <p>會去廁所</p>
+                    <p>會走路</p>
+                </div>
+                <div class="skill-card">
+                    <h3>人類基本生體功能</h3>
+                    <p>有自律神經</p>
+                    <p>基本的思考能力</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <h2 class="section-title">最新文章</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="WkyI7iEWNypaPH52w2tk_200x200.png" alt="文章1" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-date">2024-02-06</span>
+                        <h3>React 18 新特性解析</h3>
+                        <p>探討 React 18 帶來的重要更新與改進...</p>
+                    </div>
+                </article>
+                <!-- 更多文章 -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">聯絡我</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>聯絡資訊</h3>
+                    <p>電子郵件：normal@example.com</p>
+                    <p>電話：+886 912-345-678</p>
+                    <p>地址：普通市正常區平凡路五段</p>
+                </div>
+                <form class="contact-form" onsubmit="return handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">電子郵件</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">訊息(你可能會說:「聽君一席話,如聽一席話」)</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">發送訊息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 普通人. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+   
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
